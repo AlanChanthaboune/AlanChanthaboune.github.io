@@ -1,0 +1,52 @@
+body{
+  background:url(https://images.unsplash.com/photo-1489844097929-c8d5b91c456e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=98b1cd2ea86a7b4796275ef13aadafbf&auto=format&fit=crop&w=800&q=60);
+  background-size:cover;
+  background-position: center;
+
+  font-weight: bold;
+  text-align: center;
+}
+#Name{
+
+text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+            0px 8px 13px rgba(0,0,0,0.1),
+            0px 18px 23px rgba(0,0,0,0.1);
+}
+html{
+            height:100%;
+}
+h1{
+      font-family: 'Nixie One', cursive;
+      text-transform: lowercase;
+        font-weight: bold;
+        font-size: 5em;
+    }
+hr  {
+  width:60rem;
+  background: black;
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid rgba(0,0,0,.2);
+  }
+.social{
+  font-size: 1.5rem;
+
+}
+ul.social{
+  list-style:none;
+  margin:0;
+  padding-left:0;
+}
+ul.social li{
+margin-right: 1rem;
+display:inline-block;
+}
+
+.fa{
+  color:black;
+}
+.image {
+background-size: cover;
+background-position: center;
+height:200px;
+margin-top: 10%;
+}
