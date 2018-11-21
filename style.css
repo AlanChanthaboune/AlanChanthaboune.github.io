@@ -38,15 +38,6 @@ html,body{
 
 }
 
-@media only screen and (max-width: 480px) {
-#cid_32 {
-
-margin-top : 50px !important;
-
-}
-
-}
-@media (max-width: 768px) { body { height:100vh; } }
 h1{
       font-family: 'Nixie One', cursive;
       text-transform: lowercase;
@@ -89,8 +80,4 @@ background-size: cover;
 background-position: center;
 height:12rem;
 margin-top: 3%;
-}
-
-.text-primary {
-      color:#fff;!important;
 }
