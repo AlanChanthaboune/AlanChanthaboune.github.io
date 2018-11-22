@@ -15,6 +15,7 @@ text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
 -moz-background-size: cover;
 -o-background-size: cover;
   height:100%;
+  width:100%;
     background-attachment:fixed;
     overflow-x: hidden;
     overflow-y: hidden;
@@ -27,6 +28,9 @@ html,body{
         height:100%;
         width:100%;
          min-height:100%;
+         margin: 0px;
+   padding: 0px;
+   overflow-x: hidden;
 }
 .wrapper2
 {
