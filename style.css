@@ -85,3 +85,15 @@ background-position: center;
 height:12rem;
 margin-top: 3%;
 }
+@media(max-width: 800px)
+{
+
+    #lastName{
+
+      font-size:3.2rem;
+      font-weight: bold;
+      margin: 0px;
+      padding: 0px;
+
+
+}
