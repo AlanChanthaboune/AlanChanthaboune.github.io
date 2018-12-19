@@ -7,7 +7,7 @@ text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
   font-weight: bold;
 }
 .wrapper{
-  background-image:url(https://images.unsplash.com/photo-1489844097929-c8d5b91c456e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=98b1cd2ea86a7b4796275ef13aadafbf&auto=format&fit=crop&w=800&q=60);
+  background:url(https://images.unsplash.com/photo-1489844097929-c8d5b91c456e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=98b1cd2ea86a7b4796275ef13aadafbf&auto=format&fit=crop&w=800&q=60);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -24,6 +24,27 @@ text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
     padding: 0px;
     text-align: center;
 }
+#mainNavbar .navbar-brand{
+  color:#fff;
+  font-size:1.5rem;
+}
+
+#mainNavbar
+{
+  font-size:1.5rem;
+  font-weight: 300;
+}
+#mainNavbar .nav-link{
+  color:#fff;
+}
+#mainNavbar .nav-link:hover{
+  color:#007bff;
+}
+
+
+.about-me p{
+  line-height: 2;
+}
 html,body{
         height:100%;
         width:100%;
@@ -38,7 +59,7 @@ html,body{
   text-align: center;
   color:#fff;
   font-family: 'Nixie One', cursive;
-  font-weigth:800;
+  font-weight:800;
 
 }
 
@@ -57,6 +78,7 @@ hr  {
 .social{
   font-size: 1.5rem;
 }
+
 ul.social{
   list-style:none;
   margin:0;
@@ -79,6 +101,9 @@ display:inline-block;
 .fa{
   color:#212529;
 }
+.fa:hover{
+    color:#007bff;
+}
 .image {
 background-size: cover;
 background-position: center;
@@ -91,9 +116,12 @@ margin-top: 3%;
     #lastName{
 
       font-size:3.2rem;
-      font-weight: bold;
+  font-weight:600;
       margin: 0px;
       padding: 0px;
-
-
+    }
+}
+.navbar.scrolled {
+    background: rgb(222,192,222);
+    transition: background 500ms;
 }
